@@ -1,0 +1,159 @@
+h2 {
+  /*color:blue;	*/
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Epilogue', sans-serif; }
+
+h3 {
+  /*color:brown;*/
+  font-family: 'Cairo', cursive;
+  font-size: 30px; }
+
+h1 {
+  font-family: 'Epilogue', sans-serif; }
+
+.lista {
+  list-style: none;
+  color: blue; }
+
+li strong {
+  color: red; }
+
+th {
+  background-color: black;
+  text-align: center; }
+
+.contacto {
+  /*background-color: #ccc;*/
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  left: 43%;
+  top: 27%;
+  margin-top: -100px;
+  margin-left: -150px; }
+
+.containerIndex {
+  /*background-color: red;*/
+  height: 550px;
+  width: 1000px; }
+
+.containerPrincipal {
+  /*background-color: red;*/
+  height: 500px;
+  width: 500px; }
+
+
+
+.containerVuelo {
+  /*background-color: red;*/
+  height: 500px;
+  text-align: center; }
+
+.vuelo {
+  height: 450px;
+  width: 250px;
+  border: 1px solid gray;
+  margin: 2px;
+  display: inline-block;
+  border-radius: 10px; }
+
+.imgVuelos {
+  width: 240px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 2px; }
+
+.vueloCuotas {
+  font-size: 11px; }
+
+.precioVuelo {
+  font-size: 25px;
+  font-weight: bold; }
+
+.containerAlojamiento {
+  /*background-color: red;*/
+  height: 500px;
+  text-align: center; }
+
+.alojamiento {
+  height: 450px;
+  width: 250px;
+  border: 1px solid gray;
+  margin: 2px;
+  display: inline-block;
+  border-radius: 10px; }
+
+.imgAlojamientos {
+  width: 240px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 2px; }
+
+.alojamientoCuotas {
+  font-size: 11px; }
+
+.precioalojamiento {
+  font-size: 25px;
+  font-weight: bold; }
+
+.containerPaquete {
+  /*background-color: red;*/
+  height: 500px;
+  text-align: center; }
+
+.paquete {
+  height: 450px;
+  width: 250px;
+  border: 1px solid gray;
+  margin: 2px;
+  display: inline-block;
+  border-radius: 10px; }
+
+.imgPaquete {
+  width: 240px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 2px; }
+
+.paqueteCuotas {
+  font-size: 11px; }
+
+.precioPaquete {
+  font-size: 25px;
+  font-weight: bold; }
+
+.flex-container {
+  display: flex;
+  justify-content: center; }
+
+.flex-container > div {
+  /*background-color: #f1f1f1;*/
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid gray; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 310px 310px 310px 310px;
+  padding: 10px;
+  border-radius: 10px; }
+
+.grid-container > div {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 11px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px; }
+
+.trasnformar {
+  transition: all 2s; }
+
+.transformar:hover {
+  /*transform: translate(30px,50px);*/
+  /*transform: rotate(45deg);*/
+  transform: scale(2, 2);
+  /*transform: skew(30deg,30deg);*/
+  /*transform: skewX(30deg);*/
+  /*transform: skew(30deg,30deg) rotate(30deg);*/ }
